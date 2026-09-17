@@ -1,39 +1,35 @@
-# Project Proposal
-
-# ReelReady: Offshore Fishing Trip Planner
+# GradPath: Graduate Application Planning Assistant
 
 ## What and Why?
 
-Planning an offshore fishing trip can get complicated pretty quickly. Before leaving, people usually need to think about the target species, weather and sea conditions, rods and tackle, bait, safety equipment, departure time, fishing area, and who is bringing what. In practice, this information is often spread across weather apps, fishing websites, text messages, and personal notes.
+Applying to graduate school can be difficult to organize because every program has different requirements, deadlines, and application materials. Students often have to keep track of information across university websites, spreadsheets, email, notes, and application portals.
 
-ReelReady would be a mobile web application that brings these parts of trip planning into one place. The goal is not to predict exactly where fish will be, but to make preparing for a trip more organized and easier for a group.
+GradPath would be a mobile web application that helps students organize this process in one place. A user could keep a list of programs they are interested in, record important deadlines and requirements, and track the progress of each application.
 
-A user could create a trip, choose the target species and fishing area, keep track of important conditions, build a gear checklist, and coordinate with the other people joining the trip. This could help reduce forgotten equipment, repeated planning, and confusion in group chats before a trip.
+The main goal is to reduce the amount of information students have to manage manually. Instead of repeatedly checking different school websites or maintaining several separate documents, students would have one place to see what still needs to be completed and what deadlines are coming up.
 
 ## For Whom?
 
-The main users would be recreational anglers who go on offshore or nearshore fishing trips, especially people who plan trips with friends or small groups.
+The application would be for undergraduate students who are preparing to apply to graduate or professional programs.
 
-For the initial users, I would focus on people I can realistically reach, including friends, students, and recreational anglers around the New York and New Jersey area who are interested in fishing or already go on charter and private fishing trips.
+The initial users could be students at NYU and other universities who are currently researching master's programs and preparing applications. This is a group that I can realistically speak with, since many students begin comparing programs, preparing personal statements, requesting recommendation letters, and tracking deadlines during their junior and senior years.
 
-Since these users already use group chats, weather apps, notes, and fishing websites to plan trips, they would be able to give useful feedback on what information is actually important and what parts of the planning process are inconvenient.
+Their feedback would be useful in deciding which parts of the application process are hardest to organize and which information should be most visible in the application.
 
 ## How?
 
-A user would be able to create a fishing trip and enter basic information such as the date, fishing area, departure time, and target species.
+Users would be able to create a list of graduate programs they are considering and store important information for each program, such as the university, degree, application deadline, required materials, test requirements, and application status.
 
-The trip page could include a shared checklist for rods, reels, tackle, bait, safety equipment, food, and other supplies. Users could add their own items and assign certain items or responsibilities to different people in the group.
+For each application, users could keep track of tasks such as requesting recommendation letters, preparing a resume, writing a personal statement, submitting transcripts, and completing the application form.
 
-The application could also organize weather and sea-condition information that is relevant to the trip. Based on the selected target species, it could provide a basic suggested gear list that users could edit depending on their own preferences.
+The application could also provide a calendar or deadline view so users can quickly see which applications require attention soon. Users could update the status of each requirement as they make progress and add personal notes about each program.
 
-Other members could be invited to join the trip so everyone can see the same plan, checklist, and notes. After the trip, users could record results such as the species caught, approximate size, location notes, and anything they would want to remember for a future trip.
-
-The main idea is to give a fishing group one shared place for preparation instead of having the plan scattered across several different apps.
+Another useful feature would be the ability to compare programs using information the user has entered, such as location, tuition, program length, prerequisites, and deadlines. This would help students organize their research without trying to make application decisions for them.
 
 ## Scope
 
-I think this project would be a reasonable size for a group of around four to six developers over one semester.
+The first version would focus on organizing information that students enter themselves rather than attempting to automatically collect every graduate program in the world.
 
-There are enough separate features to divide the work, including user accounts, trip creation, shared trip information, species selection, gear checklists, group coordination, weather information, and trip history.
+Core features would include program tracking, application requirements, deadlines, task progress, notes, and basic program comparison. Features such as automatic university data collection, recommendation systems, or AI-generated admissions predictions would be outside the initial scope.
 
-At the same time, the project can stay manageable by focusing on planning and organization. The first version would not attempt to build advanced fish-location prediction, live sonar features, or its own marine forecasting system. If time allows, external weather or marine data could be added later, but the core application would still be useful without those more advanced features.
+This keeps the project focused on a clear problem: helping students manage the many separate pieces of information involved in graduate applications.
